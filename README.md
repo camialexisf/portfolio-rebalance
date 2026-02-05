@@ -2,12 +2,15 @@
 
 Simple exercise implementing a Portfolio that holds Stocks and generates rebalance orders based on target allocations.
 
-# Prework - Understanding the requirements
+## Prework - Understanding the requirements
 
 First I write down my understanding of the task, to then separate it in steps to make the exercise more manageable. Here is a picture of my initial notes as part of that process. 📓✏️
-![written notes](Notes.jpeg)
+<p align="center">
+  <img src="Notes.jpeg" alt="written notes" width="400"/>
+</p>
 
-# Approach
+
+## Approach
 
 1. The portfolio calculates the current allocation of each stock based on its market value.
 2. Current allocations are compared to expected allocations.
@@ -15,7 +18,7 @@ First I write down my understanding of the task, to then separate it in steps to
 4. If the difference is positive, a sell order is generated.
 5. If the difference is equal to zero, no orders are generated.
 
-# LLM chat usage.
+## LLM chat usage.
 
 I used ChatGpt as a support tool during the implementation, mainly to validate calculations and logic after defining the core classes and methods. The task was approached incrementally, using my prior analysis to guide each step and manually adjusting the generated code as needed.
 

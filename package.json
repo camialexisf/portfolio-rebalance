@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-rebalance",
+  "version": "1.0.0",
+  "description": "Portfolio rebalance",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
